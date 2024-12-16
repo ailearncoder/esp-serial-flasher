@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ESP烧录工具</string>
+    <string name="title_activity_link">LinkActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">设置</string>
+
+    <string name="menu_home">主页</string>
+    <string name="menu_gallery">设备列表</string>
+    <string name="menu_slideshow">其他</string>
+    <string name="title_activity_settings">设置</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="md5_summary_on">已开启烧录MD5校验（ESP8266不支持）</string>
+    <string name="md5_summary_off">已关闭烧录MD5校验</string>
+</resources>

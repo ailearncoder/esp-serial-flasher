@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/edit_file"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:selectAllOnFocus="false"
+        android:clickable="false"
+        android:hint="请选择文件"
+        android:inputType="none"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edit_address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:ems="10"
+        android:hint="烧录地址"
+        android:inputType="text"
+        android:digits="0123456789abcdefABCDEF"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择文件" />
+</LinearLayout>

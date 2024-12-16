@@ -1,0 +1,20 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="baud_entries">
+        <item>115200</item>
+        <item>230400</item>
+        <item>460800</item>
+    </string-array>
+
+    <integer-array name="baud_values">
+        <item>115200</item>
+        <item>230400</item>
+        <item>460800</item>
+    </integer-array>
+
+</resources>
